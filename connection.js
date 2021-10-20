@@ -3,8 +3,7 @@ var connection = mysql.createConnection({
     host: "156.67.222.85",
     user: "u110886746_otp",
     password: "Hitesh@1234",
-    database: "u110886746_sms",
-
+    database: "u110886746_sms"
 });
 
 connection.connect(function(err) {
